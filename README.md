@@ -8,9 +8,9 @@ The purpose of this analysis was to predit credit risk using the credit card dat
 
 * Oversampling - RandomOverSample: balanced accuracy score 0.62939; the precision: high_risk 0.01 low-risk 1.0;  recall high_risk 0.57 low-risk 0.68
 * Oversampling - SMOTE: balanced accuracy score 0.62777; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.62 low-risk 0.63
-* Undersampling - ClusterCentroids: balanced accuracy score; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.01 low-risk 1.0
-* Over- and undersampling - SMOTEENN: balanced accuracy score; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.01 low-risk 1.0
-* BalancedRandomForestClassifier: balanced accuracy score; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.01 low-risk 1.0
-* EasyEnsembleClassifier: balanced accuracy score; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.01 low-risk 1.0
+* Undersampling - ClusterCentroids: balanced accuracy score 0.51042; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.59 low-risk 0.43
+* Over- and undersampling - SMOTEENN: balanced accuracy score; the precision high_risk 0.01 low-risk 1.0;  recall high_risk 0.70 low-risk 0.61
+* BalancedRandomForestClassifier: balanced accuracy score 0.78777; the precision high_risk 0.04 low-risk 1.0;  recall high_risk 0.67 low-risk 0.91
+* EasyEnsembleClassifier: balanced accuracy score 0.92543; the precision high_risk 0.07 low-risk 1.0;  recall high_risk 0.91 low-risk 0.94
 
 ## Summary
