@@ -14,3 +14,7 @@ The purpose of this analysis was to predit credit risk using the credit card dat
 * EasyEnsembleClassifier: balanced accuracy score 0.92543; the precision high_risk 0.07 low-risk 1.0;  recall high_risk 0.91 low-risk 0.94
 
 ## Summary
+
+Based on the results above, I would recommend using the EasyEnsembleClassifier model to make credit risk predictions. As identified in the results section above, this model has the highest accuracy score. The recall score for both high and low risk applications is also the highest, which means that the model is good at identifying both sets of applications. 
+
+The interesting finding that all models have precision score of 1.0 for low risk applications, which means there were no False Positives for any of the models. 
